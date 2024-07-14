@@ -8,22 +8,22 @@
 -- by Adam P. Regasz-Rethy (https://github.com/RRethy)
 -- Base16 color variables
 local colors = {
-    base00 = "#2a2044",
-    base01 = "#504664",
-    base02 = "#766c83",
-    base03 = "#9c92a3",
-    base04 = "#c2b9c2",
-    base05 = "#e7dfe2",
-    base06 = "#ebe3e6",
-    base07 = "#eee8ea",
-    base08 = "#f4cc5d",
-    base09 = "#29d3dc",
-    base0A = "#8dc6e8",
-    base0B = "#4f68ff",
-    base0C = "#5f6ce6",
-    base0D = "#c84d7d",
-    base0E = "#aa53c5",
-    base0F = "#d54643"
+    base00 = "#23243b",
+    base01 = "#484858",
+    base02 = "#6c6c75",
+    base03 = "#919092",
+    base04 = "#b6b4af",
+    base05 = "#dbd9cc",
+    base06 = "#e0ded4",
+    base07 = "#e5e4db",
+    base08 = "#e5dfc1",
+    base09 = "#f8efeb",
+    base0A = "#e9b1bc",
+    base0B = "#47c0f2",
+    base0C = "#7073ad",
+    base0D = "#abd1f0",
+    base0E = "#8fcbec",
+    base0F = "#b18ebd"
 }
     vim.g.terminal_color_0 = colors.base00
 

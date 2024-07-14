@@ -11,7 +11,9 @@ require 'config.obsidian'
 require 'config.telescope'
 require 'config.treesitter'
 require 'config.overseer'
-
+require 'config.gpt'
+require 'config.leap'
+require 'config.noice'
 
 vim.diagnostic.config({
   virtual_text = false, -- Turn off inline diagnostics

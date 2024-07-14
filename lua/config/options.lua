@@ -9,3 +9,4 @@ vim.o.termguicolors = true
 vim.g.airline_theme = "tomorrow"
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.conceallevel = 2
+vim.opt.splitright = true
