@@ -1,6 +1,6 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
-    local lazyrepo = "folke/lazy.nvim.git"
+    local lazyrepo = "https://github.com/folke/lazy.nvim"
     local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
     if vim.v.shell_error ~= 0 then
         vim.api.nvim_echo({
@@ -131,8 +131,22 @@ plugins = {
             --   If not available, we use `mini` as the fallback
             "rcarriga/nvim-notify",
         }
+    },
+
+    'nvim-java/nvim-java',
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {
+    'nvimdev/lspsaga.nvim',
+    config = function()
+        require('lspsaga').setup({})
+    end,
+    dependencies = {
+        'nvim-treesitter/nvim-treesitter', -- optional
+        'nvim-tree/nvim-web-devicons',     -- optional
+    }
 }
 }
+
 
 
 opts = {}

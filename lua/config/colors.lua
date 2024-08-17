@@ -1,6 +1,6 @@
 -- bradcush/base16-nvim (https://github.com/bradcush/base16-nvim)
 -- by Bradley Cushing (https://github.com/bradcush)
--- Generated scheme by Flavours
+-- Catppuccin Mocha scheme by https://github.com/catppuccin/catppuccin
 -- Based on existing work with references below
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (http://chriskempson.com)
@@ -8,22 +8,22 @@
 -- by Adam P. Regasz-Rethy (https://github.com/RRethy)
 -- Base16 color variables
 local colors = {
-    base00 = "#23243b",
-    base01 = "#484858",
-    base02 = "#6c6c75",
-    base03 = "#919092",
-    base04 = "#b6b4af",
-    base05 = "#dbd9cc",
-    base06 = "#e0ded4",
-    base07 = "#e5e4db",
-    base08 = "#e5dfc1",
-    base09 = "#f8efeb",
-    base0A = "#e9b1bc",
-    base0B = "#47c0f2",
-    base0C = "#7073ad",
-    base0D = "#abd1f0",
-    base0E = "#8fcbec",
-    base0F = "#b18ebd"
+    base00 = "#1e1e2e",
+    base01 = "#181825",
+    base02 = "#313244",
+    base03 = "#45475a",
+    base04 = "#585b70",
+    base05 = "#cdd6f4",
+    base06 = "#f5e0dc",
+    base07 = "#b4befe",
+    base08 = "#f38ba8",
+    base09 = "#fab387",
+    base0A = "#f9e2af",
+    base0B = "#a6e3a1",
+    base0C = "#94e2d5",
+    base0D = "#89b4fa",
+    base0E = "#cba6f7",
+    base0F = "#f2cdcd"
 }
     vim.g.terminal_color_0 = colors.base00
 

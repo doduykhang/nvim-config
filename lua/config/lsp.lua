@@ -1,7 +1,7 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
 	ensure_installed = { 
-          "lua_ls", "tsserver", "vuels", "yamlls", "jsonls", "robotframework_ls"
+          "lua_ls", "tsserver", "vuels", "yamlls", "jsonls", "robotframework_ls", "tailwindcss"
   }
 })
 
@@ -100,3 +100,7 @@ require'lspconfig'.yamlls.setup{
         }
     }
 }
+
+require('lspconfig').jdtls.setup({})
+
+require('lspconfig').tailwindcss.setup{}

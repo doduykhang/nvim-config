@@ -1,8 +1,9 @@
 require 'config.options'
 require 'config.plugins'
+require('java').setup()
 --require 'config.packer'
-require 'config.colors'
---require 'config.colorschema'
+--require 'config.colors'
+require 'config.colorschema'
 require 'config.cmp'
 require 'config.keymaps'
 require 'config.lsp'
